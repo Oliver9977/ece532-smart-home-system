@@ -1,0 +1,12 @@
+14:45:43 **** Incremental Build of configuration Debug for project myserver ****
+make all 
+Building target: myserver.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../myserver_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "myserver.elf"  ./src/cJSON.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+/home/oliver/Xilinx/SDK/2018.1/gnu/microblaze/lin/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld: cannot find -llwip4
+collect2: error: ld returned 1 exit status
+makefile:36: recipe for target 'myserver.elf' failed
+make: *** [myserver.elf] Error 1
+
+14:45:43 Build Finished (took 665ms)
+

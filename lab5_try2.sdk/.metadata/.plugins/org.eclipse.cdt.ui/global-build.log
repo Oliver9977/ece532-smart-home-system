@@ -1,0 +1,847 @@
+16:18:36 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:19:15 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'http_get_result':
+../src/main.c:647:25: error: void value not ignored as it ought to be
+  *(pmod_master_2 + 0x4) =
+                         ^
+src/subdir.mk:57: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+16:19:30 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202098	   1580	 753194	 956872	  e99c8	test_net.elf
+Finished building: test_net.elf.size
+ 
+16:21:18 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:23:47 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202110	   1580	 753190	 956880	  e99d0	test_net.elf
+Finished building: test_net.elf.size
+ 
+16:23:50 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:25:10 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202110	   1580	 753190	 956880	  e99d0	test_net.elf
+Finished building: test_net.elf.size
+ 
+16:25:19 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:25:50 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202110	   1580	 753190	 956880	  e99d0	test_net.elf
+Finished building: test_net.elf.size
+ 
+16:25:58 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:29:12 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'http_get_result':
+../src/main.c:622:9: warning: 'main' is usually a function [-Wmain]
+  cJSON *main = NULL;
+         ^~~~
+../src/main.c:622:9: warning: variable 'main' set but not used [-Wunused-but-set-variable]
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202390	   1580	 753190	 957160	  e9ae8	test_net.elf
+Finished building: test_net.elf.size
+ 
+16:29:20 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'http_get_result':
+../src/main.c:622:9: warning: 'main' is usually a function [-Wmain]
+  cJSON *main = NULL;
+         ^~~~
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202438	   1580	 753190	 957208	  e9b18	test_net.elf
+Finished building: test_net.elf.size
+ 
+16:29:31 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:30:28 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:31:56 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'http_get_result':
+../src/main.c:622:9: warning: 'main' is usually a function [-Wmain]
+  cJSON *main = NULL;
+         ^~~~
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202438	   1580	 753190	 957208	  e9b18	test_net.elf
+Finished building: test_net.elf.size
+ 
+16:32:03 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:32:49 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:34:32 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:29:51 **** Clean-only build of project test_net_bsp ****
+make -k clean 
+make -C design_1_i_microblaze_0/libsrc/mydecisionslave_2_v1_0/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/cpu_v2_6/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/emaclite_v4_3/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/standalone_v6_6/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/intc_v3_7/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/lwip211_v1_1/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/tmrctr_v4_4/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/mydecisionslave_v1_0/src -s clean 
+rm -f design_1_i_microblaze_0/lib/libxil.a
+17:29:52 **** Clean-only build of configuration Debug for project test_net ****
+make clean 
+rm -rf  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o  ./src/cJSON.d ./src/echo.d ./src/http_client.d ./src/i2c_access.d ./src/iic_phyreset.d ./src/main.d ./src/platform.d ./src/platform_mb.d ./src/platform_ppc.d ./src/platform_zynq.d ./src/platform_zynqmp.d ./src/sfp.d ./src/si5324.d  test_net.elf.size  test_net.elf
+ 
+17:29:53 **** Build of project test_net_bsp ****
+make -k all 
+Running Make include in design_1_i_microblaze_0/libsrc/mydecisionslave_2_v1_0/src
+make -C design_1_i_microblaze_0/libsrc/mydecisionslave_2_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/cpu_v2_6/src
+make -C design_1_i_microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/emaclite_v4_3/src
+make -C design_1_i_microblaze_0/libsrc/emaclite_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/uartlite_v3_2/src
+make -C design_1_i_microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/bram_v4_2/src
+make -C design_1_i_microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/standalone_v6_6/src
+make -C design_1_i_microblaze_0/libsrc/standalone_v6_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/intc_v3_7/src
+make -C design_1_i_microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/lwip211_v1_1/src
+make -C design_1_i_microblaze_0/libsrc/lwip211_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/tmrctr_v4_4/src
+make -C design_1_i_microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/mydecisionslave_v1_0/src
+make -C design_1_i_microblaze_0/libsrc/mydecisionslave_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make libs in design_1_i_microblaze_0/libsrc/mydecisionslave_2_v1_0/src
+make -C design_1_i_microblaze_0/libsrc/mydecisionslave_2_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling mydecisionslave_2...
+mydecisionslave_2_selftest.c: In function 'MYDECISIONSLAVE_2_Reg_SelfTest':
+mydecisionslave_2_selftest.c:52:66: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( MYDECISIONSLAVE_2_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                  ^~
+mydecisionslave_2_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in design_1_i_microblaze_0/libsrc/cpu_v2_6/src
+make -C design_1_i_microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling cpu
+Running Make libs in design_1_i_microblaze_0/libsrc/emaclite_v4_3/src
+make -C design_1_i_microblaze_0/libsrc/emaclite_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling emaclite
+Running Make libs in design_1_i_microblaze_0/libsrc/uartlite_v3_2/src
+make -C design_1_i_microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling uartlite
+Running Make libs in design_1_i_microblaze_0/libsrc/bram_v4_2/src
+make -C design_1_i_microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling bram
+Running Make libs in design_1_i_microblaze_0/libsrc/standalone_v6_6/src
+make -C design_1_i_microblaze_0/libsrc/standalone_v6_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling standalone
+microblaze_sleep.c: In function 'usleep_MB':
+microblaze_sleep.c:106:29: warning: unused parameter 'useconds' [-Wunused-parameter]
+ int usleep_MB(unsigned long useconds)
+                             ^~~~~~~~
+microblaze_sleep.c: In function 'sleep_MB':
+microblaze_sleep.c:128:32: warning: unused parameter 'seconds' [-Wunused-parameter]
+ unsigned sleep_MB(unsigned int seconds)
+                                ^~~~~~~
+microblaze_sleep.c: In function 'MB_Sleep':
+microblaze_sleep.c:153:19: warning: unused parameter 'MilliSeconds' [-Wunused-parameter]
+ void MB_Sleep(u32 MilliSeconds)
+                   ^~~~~~~~~~~~
+Running Make libs in design_1_i_microblaze_0/libsrc/intc_v3_7/src
+make -C design_1_i_microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling intc
+Running Make libs in design_1_i_microblaze_0/libsrc/lwip211_v1_1/src
+make -C design_1_i_microblaze_0/libsrc/lwip211_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling lwip src and adapter files
+contrib/ports/xilinx/netif/xadapter.c: In function 'eth_link_detect':
+contrib/ports/xilinx/netif/xadapter.c:364:8: warning: unused variable 'link_speed' [-Wunused-variable]
+  u32_t link_speed, phy_link_status;
+        ^~~~~~~~~~
+Running Make libs in design_1_i_microblaze_0/libsrc/tmrctr_v4_4/src
+make -C design_1_i_microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling tmrctr
+Running Make libs in design_1_i_microblaze_0/libsrc/mydecisionslave_v1_0/src
+make -C design_1_i_microblaze_0/libsrc/mydecisionslave_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling mydecisionslave...
+mydecisionslave_selftest.c: In function 'MYDECISIONSLAVE_Reg_SelfTest':
+mydecisionslave_selftest.c:52:64: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( MYDECISIONSLAVE_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                ^~
+mydecisionslave_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+Finished building libraries
+17:30:00 **** Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/cJSON.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cJSON.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cJSON.d" -MT"src/cJSON.o" -o "src/cJSON.o" "../src/cJSON.c"
+Finished building: ../src/cJSON.c
+ 
+Building file: ../src/echo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+Finished building: ../src/echo.c
+ 
+Building file: ../src/http_client.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/http_client.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/http_client.d" -MT"src/http_client.o" -o "src/http_client.o" "../src/http_client.c"
+Finished building: ../src/http_client.c
+ 
+Building file: ../src/i2c_access.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+Finished building: ../src/i2c_access.c
+ 
+Building file: ../src/iic_phyreset.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+Finished building: ../src/iic_phyreset.c
+ 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'http_get_result':
+../src/main.c:622:9: warning: 'main' is usually a function [-Wmain]
+  cJSON *main = NULL;
+         ^~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/platform_mb.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+Finished building: ../src/platform_mb.c
+ 
+Building file: ../src/platform_ppc.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+Finished building: ../src/platform_ppc.c
+ 
+Building file: ../src/platform_zynq.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+Finished building: ../src/platform_zynq.c
+ 
+Building file: ../src/platform_zynqmp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+Finished building: ../src/platform_zynqmp.c
+ 
+Building file: ../src/sfp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+Finished building: ../src/sfp.c
+ 
+Building file: ../src/si5324.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+Finished building: ../src/si5324.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202438	   1580	 753190	 957208	  e9b18	test_net.elf
+Finished building: test_net.elf.size
+ 
+17:30:46 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'http_get_result':
+../src/main.c:654:42: warning: passing argument 1 of 'cJSON_GetObjectItemCaseSensitive' from incompatible pointer type [-Wincompatible-pointer-types]
+  temp = cJSON_GetObjectItemCaseSensitive(main, "temp");
+                                          ^~~~
+In file included from ../src/main.c:162:0:
+../src/cJSON.h:176:23: note: expected 'const cJSON * const {aka const struct cJSON * const}' but argument is of type 'int (*)()'
+ CJSON_PUBLIC(cJSON *) cJSON_GetObjectItemCaseSensitive(const cJSON * const object, const char * const string);
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202442	   1580	 753194	 957216	  e9b20	test_net.elf
+Finished building: test_net.elf.size
+ 
+17:30:50 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202438	   1580	 753190	 957208	  e9b18	test_net.elf
+Finished building: test_net.elf.size
+ 
+17:34:11 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:02 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202458	   1580	 753194	 957232	  e9b30	test_net.elf
+Finished building: test_net.elf.size
+ 
+17:39:16 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:30 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:20 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202458	   1580	 753194	 957232	  e9b30	test_net.elf
+Finished building: test_net.elf.size
+ 
+17:41:30 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:50 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:42:10 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202454	   1580	 753190	 957224	  e9b28	test_net.elf
+Finished building: test_net.elf.size
+ 
+17:42:17 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:43:11 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202458	   1580	 753194	 957232	  e9b30	test_net.elf
+Finished building: test_net.elf.size
+ 
+17:43:24 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202458	   1580	 753194	 957232	  e9b30	test_net.elf
+Finished building: test_net.elf.size
+ 
+17:43:28 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:46:32 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:49:52 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202474	   1580	 753194	 957248	  e9b40	test_net.elf
+Finished building: test_net.elf.size
+ 
+17:50:00 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:50:14 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:57:20 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202514	   1580	 753194	 957288	  e9b68	test_net.elf
+Finished building: test_net.elf.size
+ 
+17:57:29 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:58:17 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202514	   1580	 753194	 957288	  e9b68	test_net.elf
+Finished building: test_net.elf.size
+ 
+17:58:23 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:58:36 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:58:58 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202514	   1580	 753194	 957288	  e9b68	test_net.elf
+Finished building: test_net.elf.size
+ 
+17:59:30 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:59:54 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202514	   1580	 753194	 957288	  e9b68	test_net.elf
+Finished building: test_net.elf.size
+ 
+18:00:00 **** Auto Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202514	   1580	 753194	 957288	  e9b68	test_net.elf
+Finished building: test_net.elf.size
+ 
+18:00:04 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+18:00:18 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:08:28 **** Clean-only build of project test_net_bsp ****
+make -k clean 
+make -C design_1_i_microblaze_0/libsrc/mydecisionslave_2_v1_0/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/cpu_v2_6/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/emaclite_v4_3/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/standalone_v6_6/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/intc_v3_7/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/lwip211_v1_1/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/tmrctr_v4_4/src -s clean 
+make -C design_1_i_microblaze_0/libsrc/mydecisionslave_v1_0/src -s clean 
+rm -f design_1_i_microblaze_0/lib/libxil.a
+16:08:29 **** Clean-only build of configuration Debug for project test_net ****
+make clean 
+rm -rf  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o  ./src/cJSON.d ./src/echo.d ./src/http_client.d ./src/i2c_access.d ./src/iic_phyreset.d ./src/main.d ./src/platform.d ./src/platform_mb.d ./src/platform_ppc.d ./src/platform_zynq.d ./src/platform_zynqmp.d ./src/sfp.d ./src/si5324.d  test_net.elf.size  test_net.elf
+ 
+16:08:30 **** Build of project test_net_bsp ****
+make -k all 
+Running Make include in design_1_i_microblaze_0/libsrc/mydecisionslave_2_v1_0/src
+make -C design_1_i_microblaze_0/libsrc/mydecisionslave_2_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/cpu_v2_6/src
+make -C design_1_i_microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/emaclite_v4_3/src
+make -C design_1_i_microblaze_0/libsrc/emaclite_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/uartlite_v3_2/src
+make -C design_1_i_microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/bram_v4_2/src
+make -C design_1_i_microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/standalone_v6_6/src
+make -C design_1_i_microblaze_0/libsrc/standalone_v6_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/intc_v3_7/src
+make -C design_1_i_microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/lwip211_v1_1/src
+make -C design_1_i_microblaze_0/libsrc/lwip211_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/tmrctr_v4_4/src
+make -C design_1_i_microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in design_1_i_microblaze_0/libsrc/mydecisionslave_v1_0/src
+make -C design_1_i_microblaze_0/libsrc/mydecisionslave_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make libs in design_1_i_microblaze_0/libsrc/mydecisionslave_2_v1_0/src
+make -C design_1_i_microblaze_0/libsrc/mydecisionslave_2_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling mydecisionslave_2...
+mydecisionslave_2_selftest.c: In function 'MYDECISIONSLAVE_2_Reg_SelfTest':
+mydecisionslave_2_selftest.c:52:66: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( MYDECISIONSLAVE_2_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                  ^~
+mydecisionslave_2_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in design_1_i_microblaze_0/libsrc/cpu_v2_6/src
+make -C design_1_i_microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling cpu
+Running Make libs in design_1_i_microblaze_0/libsrc/emaclite_v4_3/src
+make -C design_1_i_microblaze_0/libsrc/emaclite_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling emaclite
+Running Make libs in design_1_i_microblaze_0/libsrc/uartlite_v3_2/src
+make -C design_1_i_microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling uartlite
+Running Make libs in design_1_i_microblaze_0/libsrc/bram_v4_2/src
+make -C design_1_i_microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling bram
+Running Make libs in design_1_i_microblaze_0/libsrc/standalone_v6_6/src
+make -C design_1_i_microblaze_0/libsrc/standalone_v6_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling standalone
+microblaze_sleep.c: In function 'usleep_MB':
+microblaze_sleep.c:106:29: warning: unused parameter 'useconds' [-Wunused-parameter]
+ int usleep_MB(unsigned long useconds)
+                             ^~~~~~~~
+microblaze_sleep.c: In function 'sleep_MB':
+microblaze_sleep.c:128:32: warning: unused parameter 'seconds' [-Wunused-parameter]
+ unsigned sleep_MB(unsigned int seconds)
+                                ^~~~~~~
+microblaze_sleep.c: In function 'MB_Sleep':
+microblaze_sleep.c:153:19: warning: unused parameter 'MilliSeconds' [-Wunused-parameter]
+ void MB_Sleep(u32 MilliSeconds)
+                   ^~~~~~~~~~~~
+Running Make libs in design_1_i_microblaze_0/libsrc/intc_v3_7/src
+make -C design_1_i_microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling intc
+Running Make libs in design_1_i_microblaze_0/libsrc/lwip211_v1_1/src
+make -C design_1_i_microblaze_0/libsrc/lwip211_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling lwip src and adapter files
+contrib/ports/xilinx/netif/xadapter.c: In function 'eth_link_detect':
+contrib/ports/xilinx/netif/xadapter.c:364:8: warning: unused variable 'link_speed' [-Wunused-variable]
+  u32_t link_speed, phy_link_status;
+        ^~~~~~~~~~
+Running Make libs in design_1_i_microblaze_0/libsrc/tmrctr_v4_4/src
+make -C design_1_i_microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling tmrctr
+Running Make libs in design_1_i_microblaze_0/libsrc/mydecisionslave_v1_0/src
+make -C design_1_i_microblaze_0/libsrc/mydecisionslave_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling mydecisionslave...
+mydecisionslave_selftest.c: In function 'MYDECISIONSLAVE_Reg_SelfTest':
+mydecisionslave_selftest.c:52:64: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( MYDECISIONSLAVE_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                ^~
+mydecisionslave_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+Finished building libraries
+16:08:38 **** Build of configuration Debug for project test_net ****
+make all 
+Building file: ../src/cJSON.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cJSON.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cJSON.d" -MT"src/cJSON.o" -o "src/cJSON.o" "../src/cJSON.c"
+Finished building: ../src/cJSON.c
+ 
+Building file: ../src/echo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+Finished building: ../src/echo.c
+ 
+Building file: ../src/http_client.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/http_client.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/http_client.d" -MT"src/http_client.o" -o "src/http_client.o" "../src/http_client.c"
+Finished building: ../src/http_client.c
+ 
+Building file: ../src/i2c_access.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+Finished building: ../src/i2c_access.c
+ 
+Building file: ../src/iic_phyreset.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+Finished building: ../src/iic_phyreset.c
+ 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/platform_mb.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+Finished building: ../src/platform_mb.c
+ 
+Building file: ../src/platform_ppc.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+Finished building: ../src/platform_ppc.c
+ 
+Building file: ../src/platform_zynq.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+Finished building: ../src/platform_zynq.c
+ 
+Building file: ../src/platform_zynqmp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+Finished building: ../src/platform_zynqmp.c
+ 
+Building file: ../src/sfp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+Finished building: ../src/sfp.c
+ 
+Building file: ../src/si5324.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -I../../test_net_bsp/design_1_i_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+Finished building: ../src/si5324.c
+ 
+Building target: test_net.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_net_bsp/design_1_i_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_net.elf"  ./src/cJSON.o ./src/echo.o ./src/http_client.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: test_net.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size test_net.elf  |tee "test_net.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 202514	   1580	 753194	 957288	  e9b68	test_net.elf
+Finished building: test_net.elf.size
+ 
+16:09:34 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:09:51 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:31:10 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+16:53:24 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:56 **** Incremental Build of configuration Debug for project test_net ****
+make all 
+make: Nothing to be done for 'all'.

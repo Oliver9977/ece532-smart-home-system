@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="pmod_master_2" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="pmod_master_2"/>
+			<item value="XPAR_DESIGN_1_I_MICROBLAZE_0_AXI_INTC_DESIGN_1_I_AXI_TIMER_1_INTERRUPT_INTR"/>
+			<item value="XPAR_DESIGN_1_I_MICROBLAZE_0_AXI_INTC_DESIGN_1_I_AXI_TIMER_0_INTERRUPT_INTR"/>
+			<item value="XPAR_MICROBLAZE_0_AXI_INTC_MYTRANSMITTER_0_IRQ_INTR"/>
+			<item value="AXI_TIMER_1_BASEADDR"/>
+			<item value="TIMER_0_INTERRUPT_INTR"/>
+			<item value="AXI_TIMER_0"/>
+			<item value="AXI_INTC_AXI_TIMER_0"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="312" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="444" key="DIALOG_HEIGHT"/>
+		<item value="932" key="DIALOG_X_ORIGIN"/>
+		<item value="174" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

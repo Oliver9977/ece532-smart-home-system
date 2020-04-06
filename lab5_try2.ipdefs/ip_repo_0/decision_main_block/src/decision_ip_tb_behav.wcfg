@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="decision_ip_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="decision_ip_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="199166666fs"></ZoomStartTime>
+      <ZoomEndTime time="488166667fs"></ZoomEndTime>
+      <Cursor1Time time="420667000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="159"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="87" />
+   <wvobject fp_name="/decision_ip_tb/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/range_status" type="logic">
+      <obj_property name="ElementShortName">range_status</obj_property>
+      <obj_property name="ObjectShortName">range_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/temperature_vld" type="logic">
+      <obj_property name="ElementShortName">temperature_vld</obj_property>
+      <obj_property name="ObjectShortName">temperature_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus186" type="vbus">
+      <obj_property name="label">actual_temp</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/decision_ip_tb/temperature[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decision_ip_tb/temperature[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decision_ip_tb/temperature[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decision_ip_tb/temperature[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decision_ip_tb/temperature[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decision_ip_tb/temperature[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decision_ip_tb/temperature[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decision_ip_tb/temperature[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decision_ip_tb/temperature[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/temperature" type="array">
+      <obj_property name="ElementShortName">temperature[15:0]</obj_property>
+      <obj_property name="ObjectShortName">temperature[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/acc_vld" type="logic">
+      <obj_property name="ElementShortName">acc_vld</obj_property>
+      <obj_property name="ObjectShortName">acc_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/acc_x" type="array">
+      <obj_property name="ElementShortName">acc_x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/acc_y" type="array">
+      <obj_property name="ElementShortName">acc_y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/acc_z" type="array">
+      <obj_property name="ElementShortName">acc_z[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_z[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/light_sensor_rd_data_0" type="array">
+      <obj_property name="ElementShortName">light_sensor_rd_data_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">light_sensor_rd_data_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/light_sensor_rd_data_1" type="array">
+      <obj_property name="ElementShortName">light_sensor_rd_data_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">light_sensor_rd_data_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/o_light_sensor_val" type="array">
+      <obj_property name="ElementShortName">o_light_sensor_val[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_light_sensor_val[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/o_weather_val" type="array">
+      <obj_property name="ElementShortName">o_weather_val[5:0]</obj_property>
+      <obj_property name="ObjectShortName">o_weather_val[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/weather_data_in" type="array">
+      <obj_property name="ElementShortName">weather_data_in[5:0]</obj_property>
+      <obj_property name="ObjectShortName">weather_data_in[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/sensor_intrpt_en" type="array">
+      <obj_property name="ElementShortName">sensor_intrpt_en[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sensor_intrpt_en[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/sensor_intrpt_rst" type="array">
+      <obj_property name="ElementShortName">sensor_intrpt_rst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sensor_intrpt_rst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/sensor_msg_intrpt" type="array">
+      <obj_property name="ElementShortName">sensor_msg_intrpt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sensor_msg_intrpt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/o_climate_control" type="array">
+      <obj_property name="ElementShortName">o_climate_control[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_climate_control[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/o_climate_control_temperature" type="array">
+      <obj_property name="ElementShortName">o_climate_control_temperature[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_climate_control_temperature[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/o_open_door" type="logic">
+      <obj_property name="ElementShortName">o_open_door</obj_property>
+      <obj_property name="ObjectShortName">o_open_door</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/o_enable_light" type="array">
+      <obj_property name="ElementShortName">o_enable_light[2:0]</obj_property>
+      <obj_property name="ObjectShortName">o_enable_light[2:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/temp_max" type="array">
+      <obj_property name="ElementShortName">temp_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_max[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/temp_min" type="array">
+      <obj_property name="ElementShortName">temp_min[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_min[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/acc_max" type="array">
+      <obj_property name="ElementShortName">acc_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_max[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/ac_temp" type="array">
+      <obj_property name="ElementShortName">ac_temp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ac_temp[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/ac_high" type="array">
+      <obj_property name="ElementShortName">ac_high[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ac_high[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/ac_low" type="array">
+      <obj_property name="ElementShortName">ac_low[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ac_low[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/light_dark" type="array">
+      <obj_property name="ElementShortName">light_dark[31:0]</obj_property>
+      <obj_property name="ObjectShortName">light_dark[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider128">
+      <obj_property name="label">dut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/temperature_vld" type="logic">
+      <obj_property name="ElementShortName">temperature_vld</obj_property>
+      <obj_property name="ObjectShortName">temperature_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/temperature" type="array">
+      <obj_property name="ElementShortName">temperature[15:0]</obj_property>
+      <obj_property name="ObjectShortName">temperature[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/o_temperature_val" type="array">
+      <obj_property name="ElementShortName">o_temperature_val[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_temperature_val[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/acc_vld" type="logic">
+      <obj_property name="ElementShortName">acc_vld</obj_property>
+      <obj_property name="ObjectShortName">acc_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/acc_x" type="array">
+      <obj_property name="ElementShortName">acc_x[11:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_x[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/acc_y" type="array">
+      <obj_property name="ElementShortName">acc_y[11:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_y[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/acc_z" type="array">
+      <obj_property name="ElementShortName">acc_z[11:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_z[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/light_sensor_rd_en" type="logic">
+      <obj_property name="ElementShortName">light_sensor_rd_en</obj_property>
+      <obj_property name="ObjectShortName">light_sensor_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/light_sensor_rd_vld" type="logic">
+      <obj_property name="ElementShortName">light_sensor_rd_vld</obj_property>
+      <obj_property name="ObjectShortName">light_sensor_rd_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/light_sensor_rd_data_0" type="array">
+      <obj_property name="ElementShortName">light_sensor_rd_data_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">light_sensor_rd_data_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/light_sensor_rd_data_1" type="array">
+      <obj_property name="ElementShortName">light_sensor_rd_data_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">light_sensor_rd_data_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/weather_data_in" type="array">
+      <obj_property name="ElementShortName">weather_data_in[5:0]</obj_property>
+      <obj_property name="ObjectShortName">weather_data_in[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/range_status" type="logic">
+      <obj_property name="ElementShortName">range_status</obj_property>
+      <obj_property name="ObjectShortName">range_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/o_light_sensor_val" type="array">
+      <obj_property name="ElementShortName">o_light_sensor_val[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_light_sensor_val[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/o_distance_sensor_val" type="logic">
+      <obj_property name="ElementShortName">o_distance_sensor_val</obj_property>
+      <obj_property name="ObjectShortName">o_distance_sensor_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/o_weather_val" type="array">
+      <obj_property name="ElementShortName">o_weather_val[5:0]</obj_property>
+      <obj_property name="ObjectShortName">o_weather_val[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/light_sensor_rd_en_out" type="logic">
+      <obj_property name="ElementShortName">light_sensor_rd_en_out</obj_property>
+      <obj_property name="ObjectShortName">light_sensor_rd_en_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/sensor_intrpt_en" type="array">
+      <obj_property name="ElementShortName">sensor_intrpt_en[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sensor_intrpt_en[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/sensor_intrpt_rst" type="array">
+      <obj_property name="ElementShortName">sensor_intrpt_rst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sensor_intrpt_rst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/sensor_msg_intrpt" type="array">
+      <obj_property name="ElementShortName">sensor_msg_intrpt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sensor_msg_intrpt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/o_climate_control" type="array">
+      <obj_property name="ElementShortName">o_climate_control[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_climate_control[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/o_climate_control_temperature" type="array">
+      <obj_property name="ElementShortName">o_climate_control_temperature[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_climate_control_temperature[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/o_open_door" type="logic">
+      <obj_property name="ElementShortName">o_open_door</obj_property>
+      <obj_property name="ObjectShortName">o_open_door</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/o_enable_light" type="array">
+      <obj_property name="ElementShortName">o_enable_light[2:0]</obj_property>
+      <obj_property name="ObjectShortName">o_enable_light[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/xyz_sum_test" type="array">
+      <obj_property name="ElementShortName">xyz_sum_test[25:0]</obj_property>
+      <obj_property name="ObjectShortName">xyz_sum_test[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/acc_mag_test" type="array">
+      <obj_property name="ElementShortName">acc_mag_test[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_mag_test[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/acc_mag_vld_test" type="logic">
+      <obj_property name="ElementShortName">acc_mag_vld_test</obj_property>
+      <obj_property name="ObjectShortName">acc_mag_vld_test</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/temp_max" type="array">
+      <obj_property name="ElementShortName">temp_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/temp_min" type="array">
+      <obj_property name="ElementShortName">temp_min[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_min[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/acc_max" type="array">
+      <obj_property name="ElementShortName">acc_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/ac_temp" type="array">
+      <obj_property name="ElementShortName">ac_temp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ac_temp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/ac_high" type="array">
+      <obj_property name="ElementShortName">ac_high[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ac_high[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/ac_low" type="array">
+      <obj_property name="ElementShortName">ac_low[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ac_low[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/light_dark" type="array">
+      <obj_property name="ElementShortName">light_dark[31:0]</obj_property>
+      <obj_property name="ObjectShortName">light_dark[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/climate_control" type="array">
+      <obj_property name="ElementShortName">climate_control[1:0]</obj_property>
+      <obj_property name="ObjectShortName">climate_control[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/climate_control_temperature" type="array">
+      <obj_property name="ElementShortName">climate_control_temperature[7:0]</obj_property>
+      <obj_property name="ObjectShortName">climate_control_temperature[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/open_door" type="logic">
+      <obj_property name="ElementShortName">open_door</obj_property>
+      <obj_property name="ObjectShortName">open_door</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/indoor_light" type="array">
+      <obj_property name="ElementShortName">indoor_light[1:0]</obj_property>
+      <obj_property name="ObjectShortName">indoor_light[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/outdoor_light" type="logic">
+      <obj_property name="ElementShortName">outdoor_light</obj_property>
+      <obj_property name="ObjectShortName">outdoor_light</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/x_mag" type="array">
+      <obj_property name="ElementShortName">x_mag[23:0]</obj_property>
+      <obj_property name="ObjectShortName">x_mag[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/y_mag" type="array">
+      <obj_property name="ElementShortName">y_mag[23:0]</obj_property>
+      <obj_property name="ObjectShortName">y_mag[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/z_mag" type="array">
+      <obj_property name="ElementShortName">z_mag[23:0]</obj_property>
+      <obj_property name="ObjectShortName">z_mag[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/acc_vld1" type="logic">
+      <obj_property name="ElementShortName">acc_vld1</obj_property>
+      <obj_property name="ObjectShortName">acc_vld1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/acc_vld2" type="logic">
+      <obj_property name="ElementShortName">acc_vld2</obj_property>
+      <obj_property name="ObjectShortName">acc_vld2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/xyz_sum" type="array">
+      <obj_property name="ElementShortName">xyz_sum[25:0]</obj_property>
+      <obj_property name="ObjectShortName">xyz_sum[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/acc_mag" type="array">
+      <obj_property name="ElementShortName">acc_mag[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_mag[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/acc_mag_vld" type="logic">
+      <obj_property name="ElementShortName">acc_mag_vld</obj_property>
+      <obj_property name="ObjectShortName">acc_mag_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/decoded_light_data" type="array">
+      <obj_property name="ElementShortName">decoded_light_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">decoded_light_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/raw_temp_data" type="array">
+      <obj_property name="ElementShortName">raw_temp_data[12:0]</obj_property>
+      <obj_property name="ObjectShortName">raw_temp_data[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/decoded_temp_data" type="array">
+      <obj_property name="ElementShortName">decoded_temp_data[8:0]</obj_property>
+      <obj_property name="ObjectShortName">decoded_temp_data[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/temp_too_low" type="logic">
+      <obj_property name="ElementShortName">temp_too_low</obj_property>
+      <obj_property name="ObjectShortName">temp_too_low</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/temp_too_high" type="logic">
+      <obj_property name="ElementShortName">temp_too_high</obj_property>
+      <obj_property name="ObjectShortName">temp_too_high</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/acc_too_high" type="logic">
+      <obj_property name="ElementShortName">acc_too_high</obj_property>
+      <obj_property name="ObjectShortName">acc_too_high</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/BEDROOM" type="array">
+      <obj_property name="ElementShortName">BEDROOM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BEDROOM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decision_ip_tb/dut/LIVING" type="array">
+      <obj_property name="ElementShortName">LIVING[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LIVING[31:0]</obj_property>
+   </wvobject>
+</wave_config>
