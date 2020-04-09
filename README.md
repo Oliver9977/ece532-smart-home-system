@@ -20,7 +20,8 @@ Below is a description of all the main files in our repository:
     * src/vga_testing_wrapper.v: Debug logic for instantiating IP on its own
     * src/vga_block.v: Block diagram for entire VGA IP
     * src/vga.v: Modified vga controller from external source
-    * src/video_buffers.v: 
+
+Public repo : https://www.mygitserver.tk/siyuan/ece532-smart-home-system
 
 
 
