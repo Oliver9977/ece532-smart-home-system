@@ -21,7 +21,7 @@ Below is a description of all the main files in our repository:
     * src/vga_block.v: Block diagram for entire VGA IP
     * src/vga.v: Modified vga controller from external source
 
-Public repo : https://www.mygitserver.tk/siyuan/ece532-smart-home-system
+Public repo : https://www.mygitserver.tk/siyuan/ece532-smart-home-system (Leave a message if access is needed)
 
 
 
